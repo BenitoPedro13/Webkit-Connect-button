@@ -17,3 +17,11 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
 }
+.ainda {
+    overflow: hidden;
+    position: absolute;
+    padding: 100px;
+    font-size: 33px;
+    border-radius: 13px;
+    background-color: #e02b2b;
+}

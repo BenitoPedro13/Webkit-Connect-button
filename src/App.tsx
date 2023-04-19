@@ -1,11 +1,12 @@
-import { GiftCard } from './components/gift-card/gift-card';
 import styles from './App.module.scss';
+import newBoardBoardClass from './_codux/boards/new-board.board';
+
+const NewBoardBoard = newBoardBoardClass.Board;
 
 function App() {
     return (
         <div className={styles.App}>
-            <GiftCard />
-            <GiftCard full />
+            <NewBoardBoard />
         </div>
     );
 }
